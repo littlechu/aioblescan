@@ -48,6 +48,8 @@ parser.add_argument("-r","--ruuvi", action='store_true', default=False,
                     help="Look only for Ruuvi tag Weather station messages")
 parser.add_argument("-p","--pebble", action='store_true', default=False,
                     help="Look only for Pebble Environment Monitor")
+parser.add_argument("-x","--xiaomi", action='store_true', default=False,
+                    help="Look only for Xiaomi temperature and humidity sensor")
 parser.add_argument("-R","--raw", action='store_true', default=False,
                     help="Also show the raw data.")
 parser.add_argument("-a","--advertise", type= int, default=0,
